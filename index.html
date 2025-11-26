@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KreaWeb - Digital Solutions & Beyond</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="brand-container">
+                <img src="WhatsApp Image 2025-10-03 at 14.26.33.jpeg" alt="KreaWeb Logo" class="logo-img">
+                <div class="logo-text">KreaWeb</div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#arquitetura">A Empresa</a></li>
+                <li><a href="#transformacao">Visual</a></li>
+                <li><a href="#stack">Tecnologias</a></li>
+                <li><a href="#produtos">Soluções</a></li>
+                <li><a href="#contato" class="btn-neon">Orçamento</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-content">
+            <span class="tag-neon">Digital Solutions & Beyond</span>
+            <h1>Construímos o seu<br>Império Digital.</h1>
+            <p>Unimos a <strong>estabilidade</strong> da arquitetura, a <strong>beleza</strong> da estética e a <strong>performance</strong> dos games para criar sites que vendem.</p>
+            <div class="cta-group">
+                <a href="#produtos" class="btn-primary">Ver Nossas Criações</a>
+                <a href="#stack" class="btn-secondary">Nossa Tecnologia</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="stats-bar">
+        <div class="container grid-stats">
+            <div class="stat-item">
+                <h3 class="counter" data-target="99">99.9%</h3>
+                <p>Uptime Garantido</p>
+            </div>
+            <div class="stat-item">
+                <h3>+200</h3>
+                <p>Sites Entregues</p>
+            </div>
+            <div class="stat-item">
+                <h3>High</h3>
+                <p>Performance (Google)</p>
+            </div>
+            <div class="stat-item">
+                <h3>24h</h3>
+                <p>Suporte Técnico</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="arquitetura" class="section-dark">
+        <div class="container grid-duplo">
+            <div class="texto-sobre">
+                <h2 class="gradient-text">Arquitetura de Código Sólida</h2>
+                <p>Na KreaWeb, tratamos cada site como um edifício. A fundação (Back-end) precisa ser robusta para suportar o crescimento, e a fachada (Front-end) precisa ser impecável.</p>
+                <p>Utilizamos padrões de desenvolvimento internacionais para garantir que seu site não apenas funcione hoje, mas escale com o seu sucesso amanhã. Segurança, velocidade e confiabilidade são nossos pilares.</p>
+            </div>
+            <div class="card-feature glass-effect">
+                <h3>Nosso Compromisso</h3>
+                <ul class="check-list">
+                    <li>✓ Código Limpo e Otimizado</li>
+                    <li>✓ Servidores de Alta Velocidade</li>
+                    <li>✓ Segurança SSL Inclusa</li>
+                    <li>✓ Responsivo (Celular e PC)</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="transformacao" class="bg-gradient">
+        <div class="container text-center">
+            <h2>Estética que Converte</h2>
+            <p style="max-width: 700px; margin: 0 auto 3rem auto;">
+                Assim como na estética, o visual é o primeiro impacto. Transformamos marcas comuns em referências de mercado através de Design UX/UI de alto padrão.
+            </p>
+            <div class="grid-visual">
+                <div class="card-visual">
+                    <div class="icon-visual">👁️</div>
+                    <h4>Identidade Visual</h4>
+                    <p>Layouts exclusivos que refletem a alma da sua empresa, sem templates prontos.</p>
+                </div>
+                <div class="card-visual">
+                    <div class="icon-visual">✨</div>
+                    <h4>Experiência do Usuário</h4>
+                    <p>Navegação fluida e intuitiva, guiando o cliente até a compra sem fricção.</p>
+                </div>
+                <div class="card-visual">
+                    <div class="icon-visual">🚀</div>
+                    <h4>Redesign Total</h4>
+                    <p>O "Antes e Depois" que sua empresa precisa para se modernizar.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="stack" class="section-dark">
+        <div class="container">
+            <div class="titulo-centro">
+                <h2 class="gradient-text">Nossas Ferramentas (Stack)</h2>
+                <p>Selecionamos os melhores "ingredientes" tecnológicos do mercado para cozinhar o sucesso do seu projeto.</p>
+            </div>
+            <div class="grid-stack">
+                <div class="tech-card"><span>⚛️</span> React.js</div>
+                <div class="tech-card"><span>🟢</span> Node.js</div>
+                <div class="tech-card"><span>🎨</span> HTML5 & CSS3</div>
+                <div class="tech-card"><span>☁️</span> AWS Cloud</div>
+                <div class="tech-card"><span>🐍</span> Python AI</div>
+                <div class="tech-card"><span>🛒</span> Stripe Payment</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="produtos" class="section-dark">
+        <div class="container">
+            <h2 style="text-align: center; margin-bottom: 3rem;">Nossas Soluções Digitais</h2>
+            
+            <div class="filters">
+                <button class="filter-btn active" onclick="filtrar('todos')">Todos</button>
+                <button class="filter-btn" onclick="filtrar('institucional')">Institucional</button>
+                <button class="filter-btn" onclick="filtrar('ecommerce')">E-commerce</button>
+                <button class="filter-btn" onclick="filtrar('sistema')">Sistemas</button>
+            </div>
+
+            <div class="grid-produtos" id="produtos-container">
+                </div>
+        </div>
+    </section>
+
+    <footer id="contato">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <h2 class="logo-text">KW</h2>
+                <p>KreaWeb - Digital Solutions & Beyond.</p>
+                <p>Transformando ideias em código.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Empresa</h4>
+                <a href="#arquitetura">Sobre</a>
+                <a href="#produtos">Serviços</a>
+                <a href="#">Carreiras</a>
+            </div>
+            <div class="footer-social">
+                <h4>Conecte-se</h4>
+                <div class="social-icons">
+                    <a href="#">Instagram</a>
+                    <a href="#">LinkedIn</a>
+                    <a href="#">WhatsApp</a>
+                </div>
+            </div>
+        </div>
+        <div class="copy">
+            &copy; 2025 KreaWeb Technology. Todos os direitos reservados.
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
